@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<script>
+		function f1(){
+			var emp = document.getElementByName("gender");
+			alert("Total Genders:"+ emp.length);
+		}		
+
+ 	</script>
+
+</head>
+<body>
+<form>
+	Male : <input type="radio" name="gender" value="male">
+	Female : <input type="radio" name="gender" value="female">
+	<input type="button" onclick="f1()" value="Total Gender">
+</form>
+</body>
+</html>
